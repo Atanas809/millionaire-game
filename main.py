@@ -35,3 +35,10 @@ def welcome():
     print(f"\nHello {enter_name}!\nWelcome to Become a millionaire game.")
 
     print("\nLet's start the game with your first question")
+
+    question1 = input("""According to a well-known proverb, what do 'many hands make'?
+ A: Light work
+ B: Loud applause
+ C: Many fingers
+ D: Crowded mitten
+""")
