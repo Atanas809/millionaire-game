@@ -13,3 +13,5 @@ D: Money """)
 
     if answer == choice:
         print("\nCongratulation you won 10 000$")
+    else:
+        try_again()
