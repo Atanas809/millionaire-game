@@ -22,3 +22,7 @@ def try_again():
     Type 'Y' for yes
     Type anything you want for EXIT
     """)
+
+    y_n = input("Your choice: ").upper()
+
+    if y_n == "Y":
