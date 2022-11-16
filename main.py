@@ -42,3 +42,5 @@ def welcome():
  C: Many fingers
  D: Crowded mitten
 """)
+
+    answer = "A"
