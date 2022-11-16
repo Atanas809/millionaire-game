@@ -29,3 +29,9 @@ def try_again():
         welcome()
     else:
         print("Have a nice day!")
+
+def welcome():
+    enter_name = input("Enter your name to continue playing the game: ")
+    print(f"\nHello {enter_name}!\nWelcome to Become a millionaire game.")
+
+    print("\nLet's start the game with your first question")
