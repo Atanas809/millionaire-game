@@ -59,3 +59,10 @@ def welcome():
         if choice == "Y":
             print("Let's start!")
             next_question()
+
+    else:
+        print("Sorry but your answer is wrong!")
+        try_again()
+
+
+welcome()
